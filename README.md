@@ -3,7 +3,7 @@ AOSP+RRO MarshMallow
 
 To initialize your local repository using the AOSP-RRO trees, use a command like this:
 ````bash
-repo init -u git://github.com/AOSP-RRO/manifest.git -b M-6.0
+repo init -u git://github.com/L-Aosp/manifest.git -b M-6.0
 ```
 Add Onyx resources by typing this:
 ````bash
