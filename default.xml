@@ -18,7 +18,7 @@
            sync-f="true"
            sync-q="true" />
 
-  <project name="AOSP-RRO/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="marshmallow" >
+  <project name="L-Aosp/platform_build" path="build" groups="pdk,tradefed" remote="github" revision="M-6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
@@ -54,8 +54,8 @@
   <project name="AOSP-RRO/platform_system_core" groups="pdk" path="system/core" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_system_extras" groups="pdk" path="system/extras" remote="github" revision="marshmallow" />
   <project name="AOSP-RRO/platform_system_vold" groups="pdk" path="system/vold" remote="github" revision="marshmallow" />
-  <project name="AOSP-RRO/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="marshmallow" />
-  <project name="AOSP-RRO/manifest" path="manifest" remote="github" revision="marshmallow" />
+  <project name="L-Aosp/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="M-6.0" />
+  <project name="L-Aosp/manifest" path="manifest" remote="github" revision="M-6.0" />
 
 <!-- CyanogenMod -->
   <project name="CyanogenMod/android_bionic" path="bionic" groups="pdk" remote="github" revision="cm-13.0" />
