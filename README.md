@@ -5,6 +5,10 @@ To initialize your local repository using the AOSP-RRO trees, use a command like
 ````bash
 repo init -u git://github.com/AOSP-RRO/manifest.git -b M-6.0
 ```
+Add Onyx resources by typing this:
+````bash
+curl --create-dirs -L -o .repo/local_manifests/onyx.xml -O -L https://raw.githubusercontent.com/L-Aosp/manifest/default/onyx.xml
+```
 Then to sync up:
 ````bash
 repo sync
