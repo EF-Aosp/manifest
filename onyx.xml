@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="flex-devices/device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="flayrmm" />
+  <project name="L-Aosp/device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="M-6.0" />
   <project name="flex-devices/device_oppo_common" path="device/oppo/common" remote="github" revision="flayrmm" />
   <project name="ashwinr64/android_kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="cm-13.0" />
-  <project name="TipsyOs-Devices/vendor_oneplus" path="vendor/oneplus" remote="github" revision="6.0" />
+  <project name="Fabio-San/vendor_oneplus" path="vendor/oneplus" remote="github" revision="flayrmm" />
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" revision="cm-13.0" />
   <project name="CyanogenMod/android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="github" revision="cm-13.0" />
 </manifest>
