@@ -1,4 +1,4 @@
-AOSP+RRO MarshMallow
+Lantern Aosp -- MarshMallow
 ===========
 
 To initialize your local repository using the AOSP-RRO trees, use a command like this:
@@ -22,3 +22,5 @@ Example:
 ./build.sh falcon
 ./build.sh titan
 ```
+
+Ps: ROM Based on AOSP-RRO of Srysuria
