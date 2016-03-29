@@ -7,7 +7,7 @@ repo init -u git://github.com/L-Aosp/manifest.git -b M-6.0
 ```
 Add Onyx resources by typing this:
 ````bash
-curl --create-dirs -L -o .repo/local_manifests/onyx.xml -O -L https://raw.githubusercontent.com/L-Aosp/M-6.0/default/onyx.xml
+curl --create-dirs -L -o .repo/local_manifests/onyx.xml -O -L https://raw.githubusercontent.com/L-Aosp/M-6.0/onyx.xml
 ```
 Then to sync up:
 ````bash
