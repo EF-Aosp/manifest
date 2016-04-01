@@ -7,6 +7,10 @@
            fetch="https://github.com/"
            review="review.cyanogenmod.org" />
 
+  <remote  name="lanter"
+           fetch="https://github.com/L-Aosp"
+           revision="M-6.0" />
+           
   <remote  name="aospb"
            fetch="https://github.com/AOSPB"
            revision="mm6.0" />
