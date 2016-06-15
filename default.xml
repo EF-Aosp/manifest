@@ -281,7 +281,6 @@
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" revision="refs/tags/android-5.1.1_r5" />
   <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" />
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" />
-  <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
   <project name="F-AOSP/platform_frameworks_native" path="frameworks/native" groups="pdk" remote="github" revision="aosp-5.1" />
@@ -468,6 +467,7 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project name="L-Aosp/platform_vendor_aosp" path="vendor/aosp" remote="github" revision="aosp-5.1" />
+  <project name="CyanogenMod/android_frameworks_minikin" path="frameworks/minikin" remote="github" revision="cm-12.1" />
 
   <!-- Generic MSM8226 -->
   <project name="CyanogenMod/android_hardware_qcom_audio" path="hardware/qcom/audio-caf/msm8226" remote="github" revision="cm-12.1-caf-8226" />
